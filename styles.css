@@ -1,0 +1,39 @@
+body {
+   background-color: #ffffff;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   font-family: 'Roboto' , arial; 
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.links {
+  display: flex;
+  margin-left: auto;
+  padding: 0px, 100px, 0px, 0px;
+  margin-right: 80px;  
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+}
+
