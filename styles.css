@@ -3,7 +3,7 @@ body {
    padding: 0;
    margin: 0;
    text-align: center;
-   font-family: 'Roboto' , arial; 
+   font-family: 'Courier New', Courier, monospace; 
 }
 
 .main-container {
@@ -20,9 +20,10 @@ body {
 }
 
 .nav-bar h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-right: auto;
     margin-left: 200px;
+
 }
 
 .links {
@@ -70,16 +71,17 @@ h1 {
 
 .hero button {
     display: block;
-    text-align: center;
     width: 110px;
     height: auto;
     border-radius: 5px;
-    background-color: #3882F6;
-    color: #f9faf8;
+    background-color: #ff1616;
+    color: #ffffff;
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
-    border: none;
+    border-style: dashed;
+    border-color: white;
+    
 }
 
 img {
@@ -95,27 +97,33 @@ img {
     align-items: center;
 }
 
+.container-two h3{
+    font-size: 50px;
+    color: #32d41c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 50px;
-    
+    padding: 50px;   
 }
 
 .content img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 225px;
     object-fit: cover;
-    border: 5px solid turquoise;
+    border: 4px groove #ffffff;
     border-radius: 15px;
     margin: 5px, 20px, 0px, 20px;
-
 }
 
 .content p {
-    padding: 20px;
+    padding: 15px;
+    font-size: 12px;
+    color: #32d41c;
 }
 
 .container-three {
@@ -147,11 +155,13 @@ img {
 .container-four {
     display: flex;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #1f2937;
     margin: 50px 200px;
     padding: 10px 80px;
     border-radius: 5px;
-    border-color: none;
+    border-color: rgb(255, 255, 255);
+    border-style:double;
+    border-width: 8px;
 }
 
 .cta-text p {
@@ -170,11 +180,14 @@ img {
 
 .cta-button button {
     color: #fff;
-    background-color: #3882F6;
+    background-color: #ff1515;
     font-size: 15px;
     border-radius: 5px;
     border-color: #fff;
     padding: 5px 20px;
+    margin-left: 150px;
+    border-style: dashed;
+    
 }
 
 .footer {
@@ -182,5 +195,4 @@ img {
     color: #fff;
     font-size: 12px;
     padding: 25px;
-
 }
