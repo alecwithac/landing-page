@@ -95,6 +95,7 @@ img {
 
 .container-two {
     align-items: center;
+    margin-top: 40px;
 }
 
 .container-two h3{
@@ -162,6 +163,8 @@ img {
     border-color: rgb(255, 255, 255);
     border-style:double;
     border-width: 8px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .cta-text p {
