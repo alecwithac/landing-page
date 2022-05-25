@@ -110,7 +110,7 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     padding: 50px; 
-    gap: 80px;  
+    gap: 50px;  
 }
 
 .content img {
