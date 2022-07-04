@@ -1,3 +1,3 @@
 # landing-page
 
-Put together knowledge of HTML and CSS. Practice making a simple yet functional landing page.
+Simple landing page using HTML and CSS. Utilized CSS flexbox for structure of page. 
